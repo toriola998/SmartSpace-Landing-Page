@@ -57,7 +57,7 @@ h1 {
 }
 
 .input-wrap {
-    margin-top: 1rem; 
+    margin: 1rem 0 2rem; 
 }
 
 .input-wrap > div {
@@ -86,5 +86,31 @@ h1 {
 }
 
 .hero-img {
-    width: 100%;
+    width: 95%;
+}
+
+.hero-wrap {
+    justify-content: end;
+    height: 36rem;
+}
+
+.blue-bg {
+    background-color: #C7FFFF;
+    width: 70%;
+    position: absolute;
+    right: 0;
+    height: 30rem;
+    z-index: -2;
+}
+
+.blue-bg > div {
+    width: 80%;
+}
+
+.social-media-icons{
+    margin: -3rem 1rem 0 0;
+}
+
+.social-media-icons img {
+    margin-bottom: 1rem;
 }
