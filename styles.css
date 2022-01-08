@@ -1,3 +1,9 @@
+/*@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Manrope:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Manrope:wght@400;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Manrope:wght@400;700;800&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +12,79 @@
 
 :root {
     --orangeColor : #FF9900;
+    --sansFont: 'DM Sans', sans-serif;
+    --mainFont : 'Manrope', sans-serif;
+    --paragraphColor: #31353B;
+    --greyColor: #DADADA;
+    --deepOrange : #F85A47;
+}
+
+.flex-align {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    margin-top: 2rem;
+    width: 100vw;
+}
+
+.contents {
+    padding: 0 1.5rem;
+}
+
+.contents >div {
+    padding-top: 6rem;
+}
+
+.orange {
+    font-family: var(--sansFont);
+    color: var(--orangeColor);
+}
+
+h1 {
+    font-family: var(--mainFont);
+    color: #000;
+    margin: 1rem 0;
+    font-weight: 800;
+}
+
+.info {
+    font-family: var(--mainFont);
+    font-weight: 400;
+    color: var(--paragraphColor);
+    font-size: 0.9rem;
+}
+
+.input-wrap {
+    margin-top: 1rem; 
+}
+
+.input-wrap > div {
+    border: 1px solid var(--greyColor);
+    padding: 1rem;
+}
+
+.input-wrap input {
+    outline: none;
+    border: none;
+}
+
+.input-wrap input[placeholder]{
+    font-family: var(--mainFont);
+    font-weight: 400;
+}
+
+.search {
+    background-color: var(--deepOrange);
+    color: #fff;
+    font-family: var(--mainFont);
+    font-weight: 700;
+    font-size: 0.7rem;
+    height: 3.4rem;
+    padding: 0 1rem;
+}
+
+.hero-img {
+    width: 100%;
 }
