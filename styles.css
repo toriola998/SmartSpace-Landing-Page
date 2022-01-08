@@ -29,7 +29,8 @@ header {
     width: 100vw;
 }
 
-.contents {
+.contents,
+.partners {
     padding: 0 1.5rem;
 }
 
@@ -49,9 +50,13 @@ h1 {
     font-weight: 800;
 }
 
-.info {
+p {
     font-family: var(--mainFont);
     font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.info {
     color: var(--paragraphColor);
     font-size: 0.9rem;
 }
@@ -113,4 +118,21 @@ h1 {
 
 .social-media-icons img {
     margin-bottom: 1rem;
+}
+
+.partners {
+    margin-top: -2.5rem;
+}
+
+.partners p {
+    color: #31353B;
+}
+
+.partners > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partners > div img {
+    margin: 1rem 1.3rem 1rem 0 ;
 }
