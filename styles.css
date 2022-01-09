@@ -1,9 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Manrope:wght@800&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Manrope:wght@400;800&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Manrope:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Manrope:wght@400;600;700;800&family=Roboto&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -135,4 +130,58 @@ p {
 
 .partners > div img {
     margin: 1rem 1.3rem 1rem 0 ;
+}
+
+#works {
+    padding: 5rem 1.5rem 2rem;
+}
+
+#works >div{
+    margin: 1rem 0 3rem;
+}
+
+#works h2 {
+    margin-bottom: 3rem;
+}
+
+#works h2,
+.headline {
+    font-family: var(--mainFont);
+    font-weight: 600;
+    text-align: center;
+}
+
+.icon-bg {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 15px;
+    justify-content: center;
+    margin: 0 auto 1.8rem;
+}
+
+.icon-bg img {
+    height: 1.5rem;
+}
+
+.bg1 {
+    background-color: #9672FF;
+}
+
+.bg2 {
+    background-color: #4DDFFD;
+}
+
+.bg3 {
+    background-color: #F2B8EC;
+}
+
+.headline {
+   font-size: 1.05rem;
+   margin-bottom: 0.5rem;
+}
+
+.notes {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #333;
 }
