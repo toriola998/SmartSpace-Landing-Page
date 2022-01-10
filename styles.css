@@ -132,8 +132,12 @@ p {
     margin: 1rem 1.3rem 1rem 0 ;
 }
 
+main {
+    padding: 0 1.5rem;
+}
+
 #works {
-    padding: 5rem 1.5rem 2rem;
+    padding: 5rem 0 2rem;
 }
 
 #works >div{
@@ -145,6 +149,7 @@ p {
 }
 
 #works h2,
+#deals h2,
 .headline {
     font-family: var(--mainFont);
     font-weight: 600;
@@ -184,4 +189,53 @@ p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #333;
+}
+
+#deals h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+#deals p {
+    text-align: center;
+}
+
+#deals button {
+    display: block;
+    margin: 1rem auto 0;
+    padding: 1rem 3rem;
+    font-family: var(--mainFont);
+    background-color: var(--deepOrange);
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 0 1rem 0;
+}
+
+ul li {
+    margin: 0 0.6rem 2rem 0;
+}
+
+ul li a {
+    font-family: var(--mainFont);
+    font-weight: 400;
+}
+
+#one{
+    color: var(--deepOrange);
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--deepOrange);
+}
+
+#deals img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 1.5rem;
 }
