@@ -253,6 +253,7 @@ ul li a {
     background-color: #F1FFFF;
     width: 100vw;
     padding: 3rem 0;
+    margin-bottom: 4rem;
 }
 
 .prop-img1{
@@ -293,4 +294,33 @@ ul li a {
 .point {
     font-weight: 700;
     margin-bottom: 5px;
+}
+
+#reviews {
+    padding: 0 1.5rem;
+}
+
+.box {
+    border: 1px solid var(--greyColor);
+    border-radius: 7px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.box > p {
+    margin: 2rem 0 4rem;
+}
+
+.person img {
+    margin-right: 1.5rem;
+}
+
+.name {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#reviews h2 {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
 }
