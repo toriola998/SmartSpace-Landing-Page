@@ -132,12 +132,12 @@ p {
     margin: 1rem 1.3rem 1rem 0 ;
 }
 
-main {
+/*main {
     padding: 0 1.5rem;
-}
+}*/
 
 #works {
-    padding: 5rem 0 2rem;
+    padding: 5rem 1.5rem 2rem;
 }
 
 #works >div{
@@ -148,8 +148,7 @@ main {
     margin-bottom: 3rem;
 }
 
-#works h2,
-#deals h2,
+h2,
 .headline {
     font-family: var(--mainFont);
     font-weight: 600;
@@ -191,6 +190,10 @@ main {
     color: #333;
 }
 
+#deals {
+    padding: 0 1.5rem;  
+}
+
 #deals h2 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
@@ -200,7 +203,8 @@ main {
     text-align: center;
 }
 
-#deals button {
+#deals button,
+.blue-bg2 button {
     display: block;
     margin: 1rem auto 0;
     padding: 1rem 3rem;
@@ -238,4 +242,46 @@ ul li a {
     width: 100%;
     height: auto;
     margin: 0 auto 1.5rem;
+}
+
+#feature {
+    font-size: 1.8rem;
+    margin: 2.5rem 0 1.5rem;
+}
+
+.blue-bg2 {
+    background-color: #F1FFFF;
+    width: 100vw;
+    padding: 3rem 0;
+}
+
+.prop-img1{
+    width: 90%;
+    margin: auto;
+    display: block;
+    z-index: -2;
+}
+
+.prop-img2 {
+    width: 75%;
+    margin: -4rem auto 0;
+    display: block;
+}
+
+#collect {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.property-details {
+    padding: 0 1.5rem;
+}
+
+.convey {
+    margin-bottom: 1rem;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
