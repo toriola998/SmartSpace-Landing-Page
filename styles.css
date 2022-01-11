@@ -278,10 +278,19 @@ ul li a {
 }
 
 .convey {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .details {
     display: grid;
     grid-template-columns: auto auto auto;
+}
+
+.details >div{
+    margin-bottom: 1.5rem;
+}
+
+.point {
+    font-weight: 700;
+    margin-bottom: 5px;
 }
