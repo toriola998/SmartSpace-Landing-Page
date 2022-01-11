@@ -216,18 +216,18 @@ h2,
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-ul {
+.properties {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     margin: 5rem 0 1rem 0;
 }
 
-ul li {
+.properties li {
     margin: 0 0.6rem 2rem 0;
 }
 
-ul li a {
+.properties li a {
     font-family: var(--mainFont);
     font-weight: 400;
 }
@@ -326,11 +326,12 @@ ul li a {
 }
 
 .part2 {
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 .part2 p {
     text-align: center;
+    margin-top: 1rem;
 }
 
 .part2 p a {
