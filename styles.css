@@ -401,5 +401,48 @@ footer ul li a {
     color:var(--paragraphColor);
     font-family: var(--sansFont);
     border-bottom: 2px solid var(--paragraphColor);
+}
+
+@media screen and (min-width: 540px) {
+    .contents,
+    .partners {
+        padding: 0 4rem;
+    }
+
+    #works > div {
+        margin: 1rem auto 3rem;
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 2.1rem;
+        width: 380px;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    #deals {
+        padding: 0 5rem;
+    }
+
+    .blue-bg2 {
+        padding: 5rem;
+    }
+
+    .box {
+        width: 70%;
+        margin: 0 auto 2rem;
+    }
+
+    footer > div{
+        padding: 6rem 5rem;
+    }
+}
+
+
+@media screen and (min-width: 760px) {
 
 }
