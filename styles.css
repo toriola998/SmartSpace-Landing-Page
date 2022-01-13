@@ -511,9 +511,21 @@ footer ul li a {
         margin-left: 2rem;
     }
 
-    .blue-bg2 button {
+    .blue-bg2 button,
+    .box {
         margin: unset;
     }
 
+    #reviews > div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 
+    .box {
+        width: 45%;
+        margin-bottom: 1rem;
+    }
+
+   
 }
