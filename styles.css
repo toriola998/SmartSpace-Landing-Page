@@ -89,38 +89,6 @@ p {
     display: none;
 }
 
-.hero-img {
-    width: 80%;
-    margin-left: 1rem;
-}
-
-.hero-wrap {
-    margin-top: 7rem;
-}
-
-.blue-bg {
-    background-color: #C7FFFF;
-    width: 70%;
-    position: absolute;
-    right: 0;
-    height: 30rem;
-    z-index: -2;
-}
-
-.blue-bg > div {
-    width: 80%;
-}
-
-.social-media-icons{
-    margin: 0 0 0 1rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.social-media-icons img {
-    margin-bottom: 1rem;
-    height: 1.2rem;
-}
 
 .partners{
     margin-top: 4rem;
@@ -558,6 +526,60 @@ footer ul li a {
     .hide-mobile {
         display: block;
     }
+
+    .flex-header {
+        display: flex;
+    }
+
+    .hero-img {
+        width: 400px;
+        margin-left: -6rem;
+    }
+
+    .hero-wrap {
+        display: flex;
+        margin-top: 5.5rem;
+        position: absolute;
+        right: 4rem;
+    }
+    
+    .blue-bg {
+        background-color: #C7FFFF;
+        width: 35%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 40rem;
+        z-index: -2;
+    }
+
+    .contents > div {
+        width: unset;
+    }
+
+    .info {
+        width: 420px;
+    }
+
+    .part1 {
+        margin: 3rem 0 0 5rem;
+    }
+    
+    .blue-bg > div {
+        width: 80%;
+    }
+    
+    .social-media-icons{
+        margin: 0 0 0 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .social-media-icons img {
+        margin-bottom: 1rem;
+        height: 1.2rem;
+    }
+    
 
     .blue-bg2 {
         width: 85%;
