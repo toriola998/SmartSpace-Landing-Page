@@ -514,6 +514,19 @@ footer ul li a {
         margin-bottom: 1rem;
     }
 
+    #deals img {
+        width: 27%;
+        margin: 0 0.7rem 0 0.7rem;
+    }
+
+    .images {
+        justify-content: center !important;
+    }
+
+    .properties {
+        justify-content: center;
+    }
+
    footer .input-wrap {
        width: 27rem;
        margin: 1rem auto 2rem;
@@ -576,7 +589,7 @@ footer ul li a {
     }
     
     .social-media-icons img {
-        margin-bottom: 1rem;
+        margin-bottom: 1.7rem;
         height: 1.2rem;
     }
     
@@ -626,16 +639,54 @@ footer ul li a {
         text-align: unset;
     }
 
-    #deals img {
-        width: 27%;
-        margin: 0 0.7rem 0 0.7rem;
-    }
-
-    .images {
-        justify-content: center !important;
-    }
-
     .properties {
         padding-left: 5rem;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    footer .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } 
+}
+
+@media screen and (min-width: 1200px) { 
+    .hero-img {
+        width: 500px;
+        margin-left: -9rem;
+    }
+
+    #reviews,
+    .part2 {
+        padding: 0 7rem;
+    }
+
+    #works {
+        padding: 15rem 7rem 5rem 7rem;
+    }
+
+    .hero-wrap {
+        right: 4rem;
+    }
+    
+    .blue-bg {
+        height: 47rem;
+    }
+
+    .part1 {
+        margin: 9rem 0 0 5rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    main,
+    section,
+    footer > div{
+        max-width: 1320px;
+        margin: auto;
     }
 }
