@@ -85,6 +85,10 @@ p {
     padding: 0 1rem;
 }
 
+.hide-mobile{
+    display: none;
+}
+
 .hero-img {
     width: 80%;
     margin-left: 1rem;
@@ -367,6 +371,7 @@ footer .input-wrap {
     background-color: #fff;
     height: 4rem;
     justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .line {
@@ -448,6 +453,18 @@ footer ul li a {
         padding: 0 5rem;
     }
 
+    .contents > div {
+        width: 450px;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .notes {
+        font-size: 1rem;
+    }
+
     #works > div {
         display: flex;
     }
@@ -461,10 +478,6 @@ footer ul li a {
         padding: unset;
     }
 
-    .properties {
-        justify-content: center;
-    }
-
     .properties li {
         margin: 0 1rem 2rem 0;
     }
@@ -474,7 +487,7 @@ footer ul li a {
     }
 
     #deals img {
-        width: 230px;
+        width: 30%;
     }
 
     #deals > div {
@@ -503,6 +516,7 @@ footer ul li a {
         display: flex;
         padding: 5rem 0;
         align-items: center;
+        justify-content: center;
     }
 
     .property-details {
@@ -519,13 +533,87 @@ footer ul li a {
     #reviews > div {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
+    }
+
+    #reviews h2 {
+        text-align: left;
+        width: 400px;
     }
 
     .box {
-        width: 45%;
+        width: 330px;
         margin-bottom: 1rem;
     }
 
-   
+   footer .input-wrap {
+       width: 27rem;
+       margin: 1rem auto 2rem;
+       padding: 0 1rem;
+       justify-content: space-between;
+   }
+}
+
+@media screen and (min-width: 1000px) { 
+    .hide-mobile {
+        display: block;
+    }
+
+    .blue-bg2 {
+        width: 85%;
+        margin: 0 auto 4rem;
+    }
+
+    .blue-bg2 > div{ 
+        width: 40%;
+        
+    }
+
+    #works {
+        padding: 5rem 5rem 5rem;
+    }
+
+    #feature {
+        margin-bottom: 3rem;
+    }
+
+    .box {
+        width: 32%;
+        margin-bottom: 1rem;
+    }
+
+    .partners {
+        padding: unset;
+    }
+
+    #deals {
+        margin-bottom: 7rem;
+    }
+
+    #reviews,
+    .part2 {
+        padding: 0 4rem;
+    }
+
+    #clients {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    #clients p {
+        text-align: unset;
+    }
+
+    #deals img {
+        width: 27%;
+        margin: 0 0.7rem 0 0.7rem;
+    }
+
+    .images {
+        justify-content: center !important;
+    }
+
+    .properties {
+        padding-left: 5rem;
+    }
 }
