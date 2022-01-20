@@ -33,20 +33,28 @@ header {
     padding-top: 6rem;
 }
 
+h1,
+h2,
+p,
+.input-wrap input[placeholder],
+.search,
+.headline,
+button {
+    font-family: var(--mainFont);
+}
+
 .orange {
     font-family: var(--sansFont);
     color: var(--orangeColor);
 }
 
 h1 {
-    font-family: var(--mainFont);
     color: #000;
     margin: 1rem 0;
     font-weight: 800;
 }
 
 p {
-    font-family: var(--mainFont);
     font-weight: 400;
     font-size: 0.9rem;
 }
@@ -71,14 +79,12 @@ p {
 }
 
 .input-wrap input[placeholder]{
-    font-family: var(--mainFont);
     font-weight: 400;
 }
 
 .search {
     background-color: var(--deepOrange);
     color: #fff;
-    font-family: var(--mainFont);
     font-weight: 700;
     font-size: 0.7rem;
     height: 3.4rem;
@@ -88,7 +94,6 @@ p {
 .hide-mobile{
     display: none;
 }
-
 
 .partners{
     margin-top: 4rem;
@@ -107,10 +112,6 @@ p {
     margin: 1rem 1.3rem 1rem 0 ;
 }
 
-/*main {
-    padding: 0 1.5rem;
-}*/
-
 #works {
     padding: 5rem 1.5rem 2rem;
 }
@@ -125,7 +126,6 @@ p {
 
 h2,
 .headline {
-    font-family: var(--mainFont);
     font-weight: 600;
     text-align: center;
 }
@@ -182,7 +182,6 @@ button {
     display: block;
     margin: 1rem auto 0;
     padding: 1rem 3rem;
-    font-family: var(--mainFont);
     background-color: var(--deepOrange);
     border: none;
     color: #fff;
